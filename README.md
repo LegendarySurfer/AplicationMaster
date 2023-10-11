@@ -4,8 +4,6 @@ algunas aplicaciones mas, pero ya incluye dos aplicaciones funcionales:
 
 <h1 align="center">Capturas de pantalla</h1>
 
-![Captura de pantalla 2023-10-03 210427](https://github.com/LegendarySurfer/AplicationMaster/assets/104568713/3d0e5e95-23ca-46de-872b-2e2b5a4c7ccb)
-![image](https://github.com/LegendarySurfer/AplicationMaster/assets/104568713/0543b3a0-974e-4ad9-b04f-966d1bb2b4ea)
 
 <h1 align="center">Funciones De Las Aplicaciones</h1>
 
