@@ -28,5 +28,9 @@
     <string name="title_todo">Bienvenido</string>
     <string name="title_categori">Categorias:</string>
 
+    <string name="todo_negocios">Negocios</string>
+    <string name="todo_personal">Personal</string>
+    <string name="todo_otros">Otros</string>
+
 
 </resources>
