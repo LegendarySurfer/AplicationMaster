@@ -8,6 +8,7 @@ import android.widget.Button
 import com.cursillokotlin.firstApp.FirstAppActivity
 import com.cursillokotlin.imccalculator.ImcCalculatorActivity
 import com.cursillokotlin.kotlin.R
+import com.cursillokotlin.superheroapp.SuperHeroListActivity
 import com.cursillokotlin.todoapp.TodoActivity
 
 class MenuActivity : AppCompatActivity() {
@@ -20,12 +21,17 @@ class MenuActivity : AppCompatActivity() {
         val btnSaludApp = findViewById<Button>(R.id.btnSaludApp)
         val btnIMCApp = findViewById<Button>(R.id.btnIMCApp)
         val btnTODO = findViewById<Button>(R.id.btnTODO)
+        val btnSuperHero = findViewById<Button>(R.id.btnSuperHero)
 
 
         btnSaludApp.setOnClickListener(this::navigateSaludApp)
         btnIMCApp.setOnClickListener{navigatoToImcApp()}
         btnTODO.setOnClickListener { navigateToTodoApp() }
+        btnSuperHero.setOnClickListener{ navigateToSuperHeroApp()}
+    }
 
+    private fun navigateToSuperHeroApp() {
+        startActivity(Intent(this,SuperHeroListActivity::class.java))
     }
 
     private fun navigateToTodoApp() {
@@ -41,5 +47,7 @@ class MenuActivity : AppCompatActivity() {
        val intent = Intent(this,ImcCalculatorActivity::class.java)
         startActivity(intent)
     }
+
+
 
 }

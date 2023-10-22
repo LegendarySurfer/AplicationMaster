@@ -13,9 +13,12 @@
         android:theme="@style/Theme.Kotlin"
         tools:targetApi="31">
         <activity
-            android:name="com.cursillokotlin.todoapp.TodoActivity"
-            android:theme="@style/Theme.TODOApp"
+            android:name="com.cursillokotlin.superheroapp.SuperHeroListActivity"
             android:exported="false" />
+        <activity
+            android:name="com.cursillokotlin.todoapp.TodoActivity"
+            android:exported="false"
+            android:theme="@style/Theme.TODOApp" />
         <activity
             android:name="com.cursillokotlin.imccalculator.ResultIMCActivity"
             android:exported="false" />
